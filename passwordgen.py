@@ -21,6 +21,7 @@ def gen():
     
     random.shuffle(s)
 
+    #Add user input for password length range
     pas = ("".join(s[0:passlen]))
     print (pas)
 
